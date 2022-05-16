@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>11 paskaita - Grid</title>
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  <section class="slepti" id=""> <!-- Flex -->
+    <div class="kvadratas"></div>
+    <div class="kvadratas"></div>
+    <div class="flexKitas">
+      <div class="kvadratas"></div>
+      <div class="kvadratas"></div>
+      <div class="kvadratas"></div>
+    </div>
+  </section>
+
+  <section class="slepti" id=""> <!-- Grid -->
+    <div class="kvadratas pirmas">1</div>
+    <div class="kvadratas ">2</div>
+    <div class="kvadratas ">3</div>
+    <div class="kvadratas ketvirtas">4</div>
+    <div class="kvadratas ">5</div>
+    <div class="kvadratas sestas">6</div>
+    <div class="kvadratas ">7</div>
+    <div class="kvadratas ">8</div>
+    <div class="kvadratas devintas">9</div>
+  </section>
+
+  <section id="CAO_uzduotis"> <!-- Cao užduotis -->
+    <center><h1> Flex display </h1></center>
+    <div class="flexDiv">
+      <div class="kvadratas flex1 width48">1</div>
+      <div class="flexDiv flexCol width48">
+        <div class="kvadratas flex234">2</div>
+        <div class="flexDiv">
+          <div class="kvadratas flex234 width48">3</div>
+          <div class="kvadratas flex234 width48">4</div>
+        </div>
+      </div>
+    </div>
+
+    <center><h1> Grid display </h1></center>
+    <div class="gridDiv">
+      <div class="kvadratas gridPirmas">1</div>
+      <div class="kvadratas gridAntras">2</div>
+      <div class="kvadratas">3</div>
+      <div class="kvadratas">4</div>
+    </div>
+  </section>
+</body>
+</html>
