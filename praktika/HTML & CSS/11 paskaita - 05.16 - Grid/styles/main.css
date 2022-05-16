@@ -69,8 +69,8 @@
 .flexDiv{
   display: flex;
 }
-.width48{
-  width: 48%;
+.width50{
+  width: 50%;
 }
 .flexCol{
   flex-direction: column;
