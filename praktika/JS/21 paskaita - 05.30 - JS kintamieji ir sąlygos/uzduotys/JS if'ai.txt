@@ -9,7 +9,7 @@ Užduotys
     2) Padaryti taip, kad puslapis su tavimi pasisveikintu, patikrintu kokiame mieste gyveni ir išvestų su tai susijusią info (pasakytų ką nors gražaus apie tavo miestą(galima tobulinti išskiriant keletą miestų, o ne išvedant tą pačią žinutę apie visus)).
         Naudoti:
             1) let/const - kurti kintamuosius (objektus arba masyvus)
-            2) prompt - gauti tavo amžių (+ extra jei tobulini).
+            2) prompt - gauti tavo vardą (+ extra jei tobulini).
             3) alert/console.log - grąžintų atsakymus.
             4) if/elseIf/else - kas be ko...
 
